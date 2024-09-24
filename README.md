@@ -5,7 +5,6 @@ CMathLib is a high-performance, GPU-accelerated math library designed for large-
 ## Table of Contents
 
 - [Features](#features)
-- [File Structure](#file-structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Sample Use Cases](#sample-use-cases)
