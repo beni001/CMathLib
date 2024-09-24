@@ -22,45 +22,6 @@ CMathLib is a high-performance, GPU-accelerated math library designed for large-
 - **Random Number Generation**: High-quality random number generators for various distributions.
 - **Scalability**: Designed to handle large datasets and complex computations.
 
-## File Structure
-mathlib/
-├── include/
-│ ├── IMathOperations.h // Interface for math operations
-│ ├── MathOperationsFactory.h // Factory for creating math operations objects
-│ ├── MemoryPool.h // Memory pool for efficient memory management
-│ ├── Vector.h // Vector operations
-│ ├── Matrix.h // Matrix operations
-│ ├── Quaternion.h // Quaternion operations for 3D rotations
-│ ├── Transform.h // Transformations (translation, rotation, scaling)
-│ ├── Random.h // Random number generation
-│ └── AutoTuner.h // Auto-tuning for kernel configurations
-├── src/
-│ ├── kernels/
-│ │ ├── math_kernels.cu // CUDA kernels for basic math operations
-│ │ ├── matrix_kernels.cu // CUDA kernels for matrix operations
-│ │ ├── sparse_kernels.cu // CUDA kernels for sparse matrix operations
-│ │ ├── vector_kernels.cu // CUDA kernels for vector operations
-│ │ ├── quaternion_kernels.cu // CUDA kernels for quaternion operations
-│ │ └── transform_kernels.cu // CUDA kernels for transformations
-│ ├── CPUMathOperations.cpp // CPU implementation of math operations
-│ ├── GPUMathOperations.cpp // GPU implementation of math operations
-│ ├── MemoryPool.cpp // Implementation of memory pool
-│ ├── AutoTuner.cpp // Implementation of auto-tuning
-│ ├── Vector.cpp // Implementation of vector operations
-│ ├── Matrix.cpp // Implementation of matrix operations
-│ ├── Quaternion.cpp // Implementation of quaternion operations
-│ ├── Transform.cpp // Implementation of transformations
-│ └── Random.cpp // Implementation of random number generation
-├── tests/
-│ ├── test_math_operations.cpp // Unit tests for math operations
-│ ├── test_performance.cpp // Performance tests and benchmarks
-│ ├── test_vector.cpp // Unit tests for vector operations
-│ ├── test_matrix.cpp // Unit tests for matrix operations
-│ ├── test_quaternion.cpp // Unit tests for quaternion operations
-│ ├── test_transform.cpp // Unit tests for transformations
-│ └── test_random.cpp // Unit tests for random number generation
-└── main.cpp // Example usage of the library
-
 
 ## Installation
 
